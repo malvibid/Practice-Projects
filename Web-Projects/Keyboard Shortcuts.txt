@@ -1,0 +1,14 @@
+ctrl + z === undo
+ctrl + c === copy
+ctrl + v === paste
+hold alt + click === multiple cursors
+ctrl + i === select whole line
+alt + left/right keys === navigate
+ctrl + left/right keys === start/end of line
+ctrl + up/down keys === start/end of document
+ctrl + d === same selection
+shift + alt+down === copy line
+alt + up/down ==== move line up/down
+ctrl + / === toggle line comment
+ctrl + enter === start new line
+ctrl + k + ctrl + s ==== shortcuts
