@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+#intro {
+  /* position: absolute; */
+  background-image: url("./assets/images/overlay.png"),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("./assets/images/bg.jpg");
+  background-size: auto, auto, 100%, auto;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 4rem 6rem 4rem;
+}
+
+#intro h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  margin: 0 0 2rem 0;
+  text-align: center;
+  color: white;
+}
+
+#intro p {
+  font-family: "Merriweather", Georgia, serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  margin-top: -0.25rem;
+  text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+  line-height: 3rem;
+}
+
+#intro p a {
+  color: white;
+  text-decoration: underline dotted rgba(255, 255, 255, 0.5) 0.05em;
+  text-underline-offset: 0.25em;
+}
+
+#intro #arrow-nav {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#intro #arrow-nav a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-decoration: none;
+  color: white;
+}
+
+.arrow {
+  width: 100%;
+  height: 100%;
+}
+
+#intro p a:hover,
+#intro #arrow-nav a:hover {
+  color: rgb(27, 192, 239);
+  text-decoration: none;
+}
+
+#nav {
+  width: calc(100% - 4rem);
+  height: 4rem;
+  background-color: rgba(255, 255, 255, 0.175);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -4rem auto 0 auto;
+  padding: 0, 2rem, 0, 0;
+  max-width: 72rem;
+}
+#nav ul.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+}
+
+#nav ul.links li {
+  list-style-type: none;
+  height: 100%;
+}
+
+#nav ul.links li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+  font-size: 0.8rem;
+  display: flex; /*a tag is inline, so have to make it a "block" element to adjust its width and height*/
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0 2rem;
+}
+
+#nav ul.links li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#nav ul.links .active a {
+  color: #1e252d;
+  background-color: white;
+}
+
+#nav ul.links .active a:hover {
+  background-color: white;
+  color: rgb(27, 192, 239);
+}
+
+#nav ul.sm-links {
+  display: flex;
+  padding: 0 2rem;
+}
+
+#nav ul.sm-links li {
+  list-style-type: none;
+  padding: 0 0 0 0.5rem;
+}
+
+#nav ul.sm-links li a {
+  color: white;
+  font-size: 1.25rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  line-height: 2.25rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: orangered; */
+}
+
+#nav ul.sm-links li a:hover {
+  color: rgb(27, 192, 239);
+}
