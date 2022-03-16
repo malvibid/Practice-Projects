@@ -10,6 +10,7 @@
 
 -   Using position absolute vs relative
 -   Javascript toggle function
+-   Discovered and used boxicon for Icons - they have a really good collection of common icons and it's very simple to use.
 
 ## Improvements I can make:
 
