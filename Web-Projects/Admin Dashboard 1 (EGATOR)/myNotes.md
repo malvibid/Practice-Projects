@@ -15,6 +15,7 @@
 -   Used variables to set colors and styles globally
 -   Used relative units (rem)
 -   Used Grid layout
+-   Used css gap property
 -   Used custom svg (+ circle)
 -   Used table in html
 -   Used pseudoelements (:before, :last-child)
@@ -23,5 +24,6 @@
 
 -   Grid layout
 -   stroke-dasharray and stroke-dashoffset
--   Practice making tables in html
+-   Practice making tables in html and to use css properties with it
+-   Learn how to make tags within tables
 -   Practice using pseudoelements
