@@ -20,6 +20,7 @@
 -   Used table in html
 -   Used pseudoelements (:before, :last-child)
 -   Used media queries
+-   Used JS to animate sidebar in mobile view and to toggle between themes
 
 #### **Areas needing improvement:**
 
@@ -29,3 +30,4 @@
 -   Learn how to make tags within tables
 -   Practice using pseudoelements
 -   Need to learn how to organise css properly and efficiently use of media queries for a responsive design
+-   Practice CSS animations
