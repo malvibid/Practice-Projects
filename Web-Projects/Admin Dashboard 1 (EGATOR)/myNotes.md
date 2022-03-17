@@ -19,6 +19,7 @@
 -   Used custom svg (+ circle)
 -   Used table in html
 -   Used pseudoelements (:before, :last-child)
+-   Used media queries
 
 #### **Areas needing improvement:**
 
@@ -27,3 +28,4 @@
 -   Practice making tables in html and to use css properties with it
 -   Learn how to make tags within tables
 -   Practice using pseudoelements
+-   Need to learn how to organise css properly and efficiently use of media queries for a responsive design
