@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)
+        ),
+        url(./assets/images/bg01.jpg);
+    margin-left: 3em;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h1 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+p {
+    color: #ffffff80;
+    font-size: 1.3em;
+    line-height: 1.8em;
+    margin-bottom: 1.5em;
+}
+
+button {
+    background-color: #1cb495;
+    color: #fff;
+    font-weight: 900;
+    border: none;
+    padding: 0.6em 1em;
+    border-radius: 0.4em;
+    margin-left: 0.5em;
+    height: 2.75em;
+}
+
+button:hover {
+    background-color: #1fcaa7;
+}
+input {
+    width: 18em;
+    height: 2.75em;
+    padding: 0.5em 1em;
+    border-radius: 0.4em;
+    outline: none;
+    border: solid 2px #ffffff80;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+ul.sm-links {
+    display: flex;
+    padding: 0;
+}
+
+ul.sm-links li {
+    list-style-type: none;
+    padding-right: 2em;
+    color: #ffffff80;
+}
+
+ul.sm-links li a {
+    color: #ffffff80;
+}
+
+main p a,
+small a {
+    color: #ffffff80;
+    text-decoration: underline dotted rgba(255, 255, 255, 0.5) 0.05em;
+    text-underline-offset: 0.25em;
+}
+
+main p a:hover,
+small a:hover,
+ul.sm-links li a:hover {
+    color: #1cb495;
+    text-decoration: none;
+}
+
+small {
+    color: #ffffff80;
+}
+
+footer {
+    position: absolute;
+    bottom: 3.5em;
+    left: 3.5em;
+}
+
+@media screen and (max-width: 736px) {
+    h1,
+    p {
+        display: none;
+    }
+    body {
+        margin-left: 0;
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    input,
+    button {
+        margin-top: 1.25em;
+        width: 100%;
+    }
+    button {
+        margin-left: 0;
+    }
+}
